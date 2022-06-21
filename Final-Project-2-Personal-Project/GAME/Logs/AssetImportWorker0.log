@@ -1,0 +1,898 @@
+Unity Editor version:    2020.3.26f1 (7298b473bc1a)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/xiecongcong/Environment Final Project 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51564
+Successfully changed project path to: /Users/xiecongcong/Environment Final Project 2
+/Users/xiecongcong/Environment Final Project 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/xiecongcong/Environment Final Project 2/Assets
+GfxDevice: creating device client; threaded=0
+2022-06-21 04:57:48.297 Unity[15077:771292] (null) preferred device: Apple M1 (high power)
+2022-06-21 04:57:48.297 Unity[15077:771292] Metal devices available: 1
+2022-06-21 04:57:48.297 Unity[15077:771292] 0: Apple M1 (high power)
+2022-06-21 04:57:48.297 Unity[15077:771292] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001995 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1162ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (970ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1971ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1640ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (863ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (713ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.005785 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.005542 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Initializing Unity extensions:
+2022-06-21 04:57:52.296 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000327db20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-06-21 04:57:52.299 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000320d6c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1511 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 2.887291 ms (FindLiveObjects: 0.071542 ms CreateObjectMapping: 0.031125 ms MarkObjects: 2.333417 ms  DeleteObjects: 0.450042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Damage2.mat
+  artifactKey: Guid(0ca441a3a25a22746ad1a47bfd114713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damage2.mat using Guid(0ca441a3a25a22746ad1a47bfd114713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b79abfe0866059f72b3766dc839d3e') in 0.974293 seconds 
+  Import took 0.978554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Damage1.mat
+  artifactKey: Guid(10e4d4bfb1a15e14eb216bbe214cce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damage1.mat using Guid(10e4d4bfb1a15e14eb216bbe214cce52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd67052a56249ea6a0eb7f27ed3c134d') in 0.012246 seconds 
+  Import took 0.014066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/botton04.png
+  artifactKey: Guid(4e111c8fdf2dcb247a87e15c478d6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/botton04.png using Guid(4e111c8fdf2dcb247a87e15c478d6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f498deb1cc8a311830e0b8cc67c92422') in 0.417466 seconds 
+  Import took 0.421502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Video.renderTexture
+  artifactKey: Guid(1856e70261b8d8f4db8905aa0348d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video.renderTexture using Guid(1856e70261b8d8f4db8905aa0348d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7ae54ad9ab85997ce606bc8ddcda98') in 0.205675 seconds 
+  Import took 0.208804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.148797 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/LightingData.asset
+  artifactKey: Guid(0a1fa53c09ba41a4e9aaf52c0996d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/LightingData.asset using Guid(0a1fa53c09ba41a4e9aaf52c0996d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325a71999cd39ec196ad01afc924e4a') in 0.056784 seconds 
+  Import took 0.060880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-1_comp_light.exr
+  artifactKey: Guid(70db881f258494842ba9991c02fb4da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-1_comp_light.exr using Guid(70db881f258494842ba9991c02fb4da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a134dc1a7b8f4cae7eefcfc3630f71e') in 0.344735 seconds 
+  Import took 0.348857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-21_comp_light.exr
+  artifactKey: Guid(52355a3d65296894bbcd7b1a66e79f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-21_comp_light.exr using Guid(52355a3d65296894bbcd7b1a66e79f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e010c2d5c5d88c229db798619f6d62') in 0.006296 seconds 
+  Import took 0.008094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-0_comp_light.exr
+  artifactKey: Guid(82a6883bc99a26a45ab83b526c5cc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-0_comp_light.exr using Guid(82a6883bc99a26a45ab83b526c5cc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd53660abfd18ba87aa6e59b7f9d60c') in 0.006197 seconds 
+  Import took 0.008134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-5_comp_light.exr
+  artifactKey: Guid(1051321b319e68349b81ab06c0f3f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-5_comp_light.exr using Guid(1051321b319e68349b81ab06c0f3f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35357e3c086fe516e671745917a7418e') in 0.005043 seconds 
+  Import took 0.006861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-3.exr
+  artifactKey: Guid(6925be945fc427c46a68b549dfb9d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-3.exr using Guid(6925be945fc427c46a68b549dfb9d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a479e3746e2d3128f67639189da4470') in 0.022927 seconds 
+  Import took 0.024733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-10_comp_light.exr
+  artifactKey: Guid(f6f502627b1a4264c89203fd2a9f85cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-10_comp_light.exr using Guid(f6f502627b1a4264c89203fd2a9f85cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb255c7c1f7eff34f40b9e86b0b127e') in 0.005826 seconds 
+  Import took 0.007557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-9.exr
+  artifactKey: Guid(d6f31b54dcc611c428b5e53bd8997e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-9.exr using Guid(d6f31b54dcc611c428b5e53bd8997e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa14b192b24136c188c40772a8504d8') in 0.007973 seconds 
+  Import took 0.009737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-3_comp_light.exr
+  artifactKey: Guid(772a70a730415ca4abb9553861018bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-3_comp_light.exr using Guid(772a70a730415ca4abb9553861018bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc4bf18f7020266f58990dc94025ec') in 0.004617 seconds 
+  Import took 0.006365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-4.exr
+  artifactKey: Guid(10a8c42138ec0794885905a91ca00ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-4.exr using Guid(10a8c42138ec0794885905a91ca00ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a0ae8857b13690970c58aa574787e2') in 0.008807 seconds 
+  Import took 0.010539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-7_comp_light.exr
+  artifactKey: Guid(dbea784634f9e6245b08f6a5ddcaa4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-7_comp_light.exr using Guid(dbea784634f9e6245b08f6a5ddcaa4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd320f776a46806c670a33ca69c358') in 0.005087 seconds 
+  Import took 0.006748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-6_comp_light.exr
+  artifactKey: Guid(001cd1a53f35e5a49abede883a54d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-6_comp_light.exr using Guid(001cd1a53f35e5a49abede883a54d980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e153dbe23cfefa41076770334c8bec0') in 0.005077 seconds 
+  Import took 0.006773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-23_comp_light.exr
+  artifactKey: Guid(83a03e5983ed7e046a06c80464c29cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-23_comp_light.exr using Guid(83a03e5983ed7e046a06c80464c29cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42df93574d56600f225343200549e2e') in 0.004918 seconds 
+  Import took 0.006566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-7.exr
+  artifactKey: Guid(0befdc70f66d30f42bb3dac68cec696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-7.exr using Guid(0befdc70f66d30f42bb3dac68cec696c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772b0dae053724a68e1d1094e666c3c4') in 0.009334 seconds 
+  Import took 0.011079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-14_comp_light.exr
+  artifactKey: Guid(9f5fd827d7e23cc448a8cce50de3da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-14_comp_light.exr using Guid(9f5fd827d7e23cc448a8cce50de3da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae3cdfb22b8d9e9894a047979dc3527') in 0.004747 seconds 
+  Import took 0.006526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c97e8ff662b6b6a489e74e852b82bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-9_comp_light.exr using Guid(c97e8ff662b6b6a489e74e852b82bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8228b78c489055ec467a5670f8933') in 0.005499 seconds 
+  Import took 0.007300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-11_comp_light.exr
+  artifactKey: Guid(b4ffcfee100f6b04c8a6cee9db086b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-11_comp_light.exr using Guid(b4ffcfee100f6b04c8a6cee9db086b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146d67696555eabd299f9b6bceb4547') in 0.005211 seconds 
+  Import took 0.006909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-8_comp_light.exr
+  artifactKey: Guid(1f097577cdb5186429abc8ac4fc8bf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-8_comp_light.exr using Guid(1f097577cdb5186429abc8ac4fc8bf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c21b19d39112194a6e9cbc4feae064') in 0.005340 seconds 
+  Import took 0.007028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-2_comp_light.exr
+  artifactKey: Guid(d213b6d7cab04334ebd2115c78105768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-2_comp_light.exr using Guid(d213b6d7cab04334ebd2115c78105768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd538675ad939886faf1e7d88139a3919') in 0.005312 seconds 
+  Import took 0.007120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-0.exr
+  artifactKey: Guid(2ec7780a9a92bd849b3b67d134a9884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-0.exr using Guid(2ec7780a9a92bd849b3b67d134a9884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e985cc63fdd8e0ee4ee42a442ade404') in 0.019112 seconds 
+  Import took 0.020864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-4_comp_light.exr
+  artifactKey: Guid(eedb3c697794fbf48b3066ce24bcfb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-4_comp_light.exr using Guid(eedb3c697794fbf48b3066ce24bcfb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f9cd5a46c8409743a46d55e2bc79ee') in 0.005268 seconds 
+  Import took 0.007045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-13_comp_light.exr
+  artifactKey: Guid(83c2f5c592b016b40ba0e135d475ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-13_comp_light.exr using Guid(83c2f5c592b016b40ba0e135d475ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91962bfb69db638ab4e85fc2869608a6') in 0.005548 seconds 
+  Import took 0.007301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-1.exr
+  artifactKey: Guid(b432f69e93e793a4eb9a50da1d800a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-1.exr using Guid(b432f69e93e793a4eb9a50da1d800a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f385d94dee84fb4e121be1248fc9369') in 0.018169 seconds 
+  Import took 0.020032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-17_comp_light.exr
+  artifactKey: Guid(c0ec8658c6ae07d499a73583770ecaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-17_comp_light.exr using Guid(c0ec8658c6ae07d499a73583770ecaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8d1a6f899f4d2eeef87fa587821407') in 0.005075 seconds 
+  Import took 0.006868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-2.exr
+  artifactKey: Guid(0e451baf78b997e4e96c5825ef32db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-2.exr using Guid(0e451baf78b997e4e96c5825ef32db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412049e9c2ed59c465a0afde401d1896') in 0.009249 seconds 
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-16_comp_light.exr
+  artifactKey: Guid(17bcf5ad2ba9f654bb1045c8abd90a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-16_comp_light.exr using Guid(17bcf5ad2ba9f654bb1045c8abd90a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ddda604aaff86ac6b2d04dc9d1c5a4') in 0.004992 seconds 
+  Import took 0.006727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-15_comp_light.exr
+  artifactKey: Guid(4331bc45d6fc5f843a081eaa6bfdfd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-15_comp_light.exr using Guid(4331bc45d6fc5f843a081eaa6bfdfd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b797b6d3e7affe12b9f2df84fad55ac') in 0.004808 seconds 
+  Import took 0.006601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-18_comp_light.exr
+  artifactKey: Guid(2761a3bf256bb3a4f97f24a33397149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-18_comp_light.exr using Guid(2761a3bf256bb3a4f97f24a33397149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011337b2d6f3abca8610741cce6c03f9') in 0.005071 seconds 
+  Import took 0.006810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-5.exr
+  artifactKey: Guid(4ccba72712ff4664eaf2bff8174248d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-5.exr using Guid(4ccba72712ff4664eaf2bff8174248d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2c175b1cb2b4f32d9fcaabce7890e1') in 0.009103 seconds 
+  Import took 0.010856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-12_comp_light.exr
+  artifactKey: Guid(d151d6bfc0b7fef41a31e315ea18124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-12_comp_light.exr using Guid(d151d6bfc0b7fef41a31e315ea18124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51d327bf9ae71de1a4e2acf42e9fc34') in 0.004954 seconds 
+  Import took 0.006604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-19_comp_light.exr
+  artifactKey: Guid(fa03cc8f0482b0d4794bd125e25a882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-19_comp_light.exr using Guid(fa03cc8f0482b0d4794bd125e25a882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81458b91889030594e66d5ac5cbd7b2e') in 0.004741 seconds 
+  Import took 0.006405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-22_comp_light.exr
+  artifactKey: Guid(0cc85017e20b45d40b4cff68abd805f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-22_comp_light.exr using Guid(0cc85017e20b45d40b4cff68abd805f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd7ab81e0ceb91b72939c8dd2429491') in 0.005331 seconds 
+  Import took 0.007001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-20_comp_light.exr
+  artifactKey: Guid(a3813b182f9bea74f9c002cbd8ac7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/Lightmap-20_comp_light.exr using Guid(a3813b182f9bea74f9c002cbd8ac7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6e18d637503f3888d77bb90dcb82e') in 0.005493 seconds 
+  Import took 0.007257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-6.exr
+  artifactKey: Guid(151851c1141222349a4630ebcf3984bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-6.exr using Guid(151851c1141222349a4630ebcf3984bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab365202e532d5245bbfef7f173b82e0') in 0.009033 seconds 
+  Import took 0.010957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-8.exr
+  artifactKey: Guid(1de121815956da74a922866787cc5f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2/ReflectionProbe-8.exr using Guid(1de121815956da74a922866787cc5f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab562876c5a46607355f368b62c3babd') in 0.008878 seconds 
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.331670 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/LightingData.asset
+  artifactKey: Guid(3df59c1d38995374787492d755280b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/LightingData.asset using Guid(3df59c1d38995374787492d755280b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205fbd0469592121039010b2138f0d5c') in 0.003037 seconds 
+  Import took 0.006075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-8_comp_light.exr
+  artifactKey: Guid(7eaa53ce4a5a2bc4589fe3ea10577c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-8_comp_light.exr using Guid(7eaa53ce4a5a2bc4589fe3ea10577c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd856d5acded6f07bbeaae264bc3d1f55') in 0.008482 seconds 
+  Import took 0.011627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-0.exr
+  artifactKey: Guid(f389c71cdbf74ad4d9fa2f0d807a641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-0.exr using Guid(f389c71cdbf74ad4d9fa2f0d807a641c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912f00b8ac33e179304edf5dc080e72b') in 0.017352 seconds 
+  Import took 0.019938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-9_comp_light.exr
+  artifactKey: Guid(4e443d1e8ab5ed842b659ea88fb593ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-9_comp_light.exr using Guid(4e443d1e8ab5ed842b659ea88fb593ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99da1f6ddd7047e594acfe1d1a7e0f4') in 0.006574 seconds 
+  Import took 0.009195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-5_comp_light.exr
+  artifactKey: Guid(e22cb8177a84d2344b40092f1a37a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-5_comp_light.exr using Guid(e22cb8177a84d2344b40092f1a37a658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b5496bbc8afd66fe7cda888724fa49') in 0.005542 seconds 
+  Import took 0.007962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-8.exr
+  artifactKey: Guid(dee64a5b0e6314e40b437228bfd4b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-8.exr using Guid(dee64a5b0e6314e40b437228bfd4b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60e7f72cab6fbc29c3e03a64c9748e') in 0.010365 seconds 
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-3.exr
+  artifactKey: Guid(72a882bc61e255342b9ad45b69fce8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-3.exr using Guid(72a882bc61e255342b9ad45b69fce8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ef0f6383126553d20e7c416d96f800') in 0.009077 seconds 
+  Import took 0.010943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-7.exr
+  artifactKey: Guid(aac84bd9675c70b49a40ea8bed00693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-7.exr using Guid(aac84bd9675c70b49a40ea8bed00693e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c1625c58f1bf40fd5269b7d3a58ff7') in 0.008661 seconds 
+  Import took 0.010593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-4_comp_light.exr
+  artifactKey: Guid(4d6aa59649507e14086c9f30a1198796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-4_comp_light.exr using Guid(4d6aa59649507e14086c9f30a1198796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e692fac9b662fe90c214950dd2515f') in 0.005225 seconds 
+  Import took 0.007150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-4.exr
+  artifactKey: Guid(007deabd1ed356143b54efad3b0aaa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-4.exr using Guid(007deabd1ed356143b54efad3b0aaa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42c05f55ac9cca5def1b8ece0fa466d') in 0.008838 seconds 
+  Import took 0.010793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f9eeef158b4c8e540bf6c1c5a5650ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-1_comp_light.exr using Guid(f9eeef158b4c8e540bf6c1c5a5650ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e9e37c300853f98b4377e01fea05b4') in 0.004762 seconds 
+  Import took 0.006572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-2.exr
+  artifactKey: Guid(3da665b36f078974a97ac2b38ae79d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-2.exr using Guid(3da665b36f078974a97ac2b38ae79d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f1fb20c168ec529ebfe88cc84f0b31') in 0.008401 seconds 
+  Import took 0.010116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-1.exr
+  artifactKey: Guid(ef64104a422818a4db507136ecdca1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-1.exr using Guid(ef64104a422818a4db507136ecdca1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cc24e96ae080073b030c3c67f3320b') in 0.008109 seconds 
+  Import took 0.009863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-5.exr
+  artifactKey: Guid(55e010624efddcc4fa08484a172cc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-5.exr using Guid(55e010624efddcc4fa08484a172cc55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3f22497016a6e34dfb32cccbeeb3aa') in 0.009318 seconds 
+  Import took 0.011005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-9.exr
+  artifactKey: Guid(0b7796276d7f74240910b1e2ab3d1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-9.exr using Guid(0b7796276d7f74240910b1e2ab3d1eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2066fca87b8f64aec55632b1ec6c2b') in 0.007213 seconds 
+  Import took 0.009137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-2_comp_light.exr
+  artifactKey: Guid(686efb626c92f124e84fb6851c667f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-2_comp_light.exr using Guid(686efb626c92f124e84fb6851c667f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e8ab54f26f5eadb9f3101c9d11d99') in 0.004461 seconds 
+  Import took 0.006139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-3_comp_light.exr
+  artifactKey: Guid(be7e600a521ab514797f9bb885482e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-3_comp_light.exr using Guid(be7e600a521ab514797f9bb885482e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dfdaacade937920d3eee2fb2d5d3c8') in 0.004523 seconds 
+  Import took 0.006169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4f6fc9a11d8b9fd4cab52035d5fa8e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-0_comp_light.exr using Guid(4f6fc9a11d8b9fd4cab52035d5fa8e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca3913eb807bfb5308e53a5255c4f6d') in 0.004870 seconds 
+  Import took 0.006568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-7_comp_light.exr
+  artifactKey: Guid(cf79c5545a84e85479e8263c9fae1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-7_comp_light.exr using Guid(cf79c5545a84e85479e8263c9fae1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b93668ef9db6e1fc3bb3ee0e3f01f19') in 0.004444 seconds 
+  Import took 0.006171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-6_comp_light.exr
+  artifactKey: Guid(397f0e65dc7699f43ac97521aacf0934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/Lightmap-6_comp_light.exr using Guid(397f0e65dc7699f43ac97521aacf0934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7c3404a66860660543095c87954f08') in 0.004514 seconds 
+  Import took 0.006233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-6.exr
+  artifactKey: Guid(b0d413c3d52a2484698c2db6ad064c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3/ReflectionProbe-6.exr using Guid(b0d413c3d52a2484698c2db6ad064c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf222506cf67f43c9cea6b09908f3bb') in 0.008340 seconds 
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.031990 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_1_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(a16c8baf3a0afa145b05f1c198ec5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_1_Profiles/Main Camera Profile.asset using Guid(a16c8baf3a0afa145b05f1c198ec5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0511d40da6ccc5b6972c38a51808de4') in 0.003062 seconds 
+  Import took 0.006287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.920127 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_3.unity
+  artifactKey: Guid(6314debafaa04b7488b7aa95415b75b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_3.unity using Guid(6314debafaa04b7488b7aa95415b75b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc811ac386154bf6c442ce12f0a4a86') in 0.001629 seconds 
+  Import took 0.004035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.941153 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Scene_2.unity
+  artifactKey: Guid(c8f4fca3510821c4184e5bb5a2286202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Scene_2.unity using Guid(c8f4fca3510821c4184e5bb5a2286202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dd4995442ac1f5ac4e5a5bf4bb686e') in 0.001990 seconds 
+  Import took 0.005260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217298 seconds.
+  path: Assets/Stylized Interiors Megapack/Scenes/Main.unity
+  artifactKey: Guid(7707d2cc0ab804543ba1824f4d607168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Interiors Megapack/Scenes/Main.unity using Guid(7707d2cc0ab804543ba1824f4d607168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49151f96f454f6972e42dd477bffde12') in 0.002000 seconds 
+  Import took 0.004818 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-06-21 05:01:38.746 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003252610 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2060ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1755ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (739ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.0 MB.
+System memory in use after: 179.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 2.046417 ms (FindLiveObjects: 0.094292 ms CreateObjectMapping: 0.031375 ms MarkObjects: 1.903167 ms  DeleteObjects: 0.016291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-06-21 05:02:56.685 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003265a40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1968ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1689ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (890ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (709ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2037.
+Total: 1.891208 ms (FindLiveObjects: 0.064125 ms CreateObjectMapping: 0.029167 ms MarkObjects: 1.785792 ms  DeleteObjects: 0.011291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-06-21 05:06:26.251 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003273640 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.114 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2115ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1786ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.4 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 2.039000 ms (FindLiveObjects: 0.085875 ms CreateObjectMapping: 0.030542 ms MarkObjects: 1.903583 ms  DeleteObjects: 0.017875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-06-21 05:10:09.009 Unity[15077:771292] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003272680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2002ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1706ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (742ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.6 MB.
+System memory in use after: 179.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 1.918583 ms (FindLiveObjects: 0.084625 ms CreateObjectMapping: 0.029042 ms MarkObjects: 1.791292 ms  DeleteObjects: 0.012917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
